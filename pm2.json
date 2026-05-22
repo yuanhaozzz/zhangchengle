@@ -1,6 +1,6 @@
 {
   "apps": {
-    "name": "low-code-3010",
+    "name": "zhang-3010",
     "script": "app.js",
     "cwd": "./",
     "args": "",
