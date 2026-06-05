@@ -18,6 +18,7 @@ const packageOptions = [
   { label: "10套装", value: "10" },
   { label: "5套装", value: "5" },
   { label: "2套装", value: "2" },
+  { label: "1套装", value: "1" },
 ];
 
 function validate() {
@@ -173,6 +174,7 @@ function goHistory() {
   gap: 4px;
   justify-content: flex-end;
   text-align: center;
+  width: 200px;
 }
 
 .package-option {
@@ -225,4 +227,12 @@ function goHistory() {
 }
 </style>
 
-<style></style>
+<style>
+.van-cell__title {
+  width: 75px;
+  flex: none;
+}
+.van-cell__value {
+  overflow-x: scroll;
+}
+</style>
